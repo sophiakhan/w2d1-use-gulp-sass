@@ -1,0 +1,32 @@
+// partials
+@import 'priceBox';
+
+// variables 
+$colorBlue: darkblue;
+$backgroundImageHeader: url(../img/background.jpg);
+$colorBlueDarker: darken($colorBlue, 50%);
+$columnWidth: 960px / 12 * 100;
+
+// globals
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+// classes
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
