@@ -1,0 +1,36 @@
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $colorLightGrey;
+
+    .nav-button {
+        display: inline;
+
+        a.nav-link:link,
+        a.nav-link:visited {
+            color: grey;
+            font-family: $fontPTSans;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a.nav-link:hover,
+        a.nav-link:active {
+            color: $colorBlack;
+        }
+    }
+}
+
+.header-img {
+background: $headerImage;
+background-size: cover;
+background-position: 0% 60%;
+padding: 150px;
+color: $colorWhite;
+text-align: center;
+text-shadow: 1px 1px $colorBlack;
+}
+

@@ -1,0 +1,57 @@
+.price-box {
+    text-align: center;
+    color: $colorWhite;
+    margin: 15px 15px 0px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &.price-box-green {
+        background-color: $colorGreen;
+    }
+
+    &.price-box-blue {
+        background-color: $colorBlue;
+    }
+
+    &.price-box-black {
+        background-color: black;
+    }
+
+    :nth-child(2) {
+        font-size: 90px;
+        padding-top: 5px;
+    }
+
+    :last-child {
+        opacity: 0.5;
+    }
+}
+
+
+.price-info {
+    margin: 0px 15px 0px 15px;
+
+    > div {
+        border: .5px solid $colorGrey;
+        background: $colorLightGrey;
+        padding: 10px;
+        text-align: center;
+        color: $colorDarkGrey;
+    }
+
+    > div.choose-button {
+        background: $colorWhite;
+        padding: 15px;
+
+        button {
+            background: $colorWhite;
+            border: 1px solid $colorGrey;
+            font-size: 14px;
+            border-radius: 20px;
+            padding: 10px;
+            font-weight: bold;
+        }
+    }
+}
+
+

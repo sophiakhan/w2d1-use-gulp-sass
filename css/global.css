@@ -1,3 +1,144 @@
+.header-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.header-nav .nav-button {
+  display: inline;
+}
+
+.header-nav .nav-button a.nav-link:link,
+.header-nav .nav-button a.nav-link:visited {
+  color: grey;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-nav .nav-button a.nav-link:hover,
+.header-nav .nav-button a.nav-link:active {
+  color: black;
+}
+
+.header-img {
+  background: url(https://unsplash.it/2000/3375?image=910&blur);
+  background-size: cover;
+  background-position: 0% 60%;
+  padding: 150px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.price-box {
+  text-align: center;
+  color: white;
+  margin: 15px 15px 0px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.price-box.price-box-green {
+  background-color: #458238;
+}
+
+.price-box.price-box-blue {
+  background-color: #213576;
+}
+
+.price-box.price-box-black {
+  background-color: black;
+}
+
+.price-box :nth-child(2) {
+  font-size: 90px;
+  padding-top: 5px;
+}
+
+.price-box :last-child {
+  opacity: 0.5;
+}
+
+.price-info {
+  margin: 0px 15px 0px 15px;
+}
+
+.price-info > div {
+  border: 0.5px solid #d5d5d5;
+  background: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  color: #5b666b;
+}
+
+.price-info > div.choose-button {
+  background: white;
+  padding: 15px;
+}
+
+.price-info > div.choose-button button {
+  background: white;
+  border: 1px solid #d5d5d5;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.info-heading {
+  font-size: 22px;
+  letter-spacing: 2.5px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.info-body {
+  margin: 20px 45px 0px 10px;
+  color: #5b666b;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 * {
-  background: pink;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+footer {
+  background: black;
+  color: lightgrey;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+a:link,
+a:visited {
+  color: white;
 }
